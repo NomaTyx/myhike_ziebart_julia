@@ -18,21 +18,16 @@
         <!-- Your HTML Layout go here -->
         <!------------------------------>
 
-        <site-header></site-header>
+        <script type="module" src="/src/components/site-navbar.js"></script>
 
         <!-- Main content goes here -->
 
-        <site-footer></site-footer>
+        <script type="module" src="/src/components/site-footer.js"></script>
 
         <!---------------------------------------------->
         <!-- Your own JavaScript scripts go here      -->
         <!---------------------------------------------->
 
-        <!-- Firebase and authentication related scripts -->
-        <!-- The order of loading matters -->
-        <script type="module" src="/src/firebaseConfig.js"></script>
-        <script type="module" src="/src/authentication.js"></script>
-        <script type="module" src="/src/loginSignup.js"></script>
         <script type="module" src="/src/app.js"></script>
     </body>
 </html>
